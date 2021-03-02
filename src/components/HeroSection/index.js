@@ -11,7 +11,7 @@ import {
   VideoBg,
 } from "./HeroElements";
 import Video from "../../videos/video.mp4";
-import { Button } from "react-scroll";
+import { Button } from "../ButtonElements";
 
 const Hero = () => {
   const [hover, setHover] = useState(false);
@@ -31,7 +31,7 @@ const Hero = () => {
           your next payment.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button to="signup" primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover}>
             Get started {hover ? <ArrowForward /> : <ArrowRigth />}
           </Button>
         </HeroBtnWrapper>
