@@ -14,9 +14,10 @@ import {
   TextWrapper,
   TopLine,
 } from "./InfoElements";
-import image from "../../images/svg-1.svg";
+
 
 const InfoSection = ({
+  img,
   id,
   lightBg,
   lightText,
@@ -61,7 +62,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={image} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
