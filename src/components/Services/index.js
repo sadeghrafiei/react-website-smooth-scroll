@@ -14,7 +14,11 @@ import {
 
 const Services = () => {
   return (
+<<<<<<< HEAD
     <ServicesContainer id="services">
+=======
+    <ServicesContainer id="Services">
+>>>>>>> be469c96318715328a33a6e18632e35a1869ff4d
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>

@@ -38,12 +38,20 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
+<<<<<<< HEAD
     id: 'signup' ,
+=======
+    id: 'about' ,
+>>>>>>> be469c96318715328a33a6e18632e35a1869ff4d
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: 'Join our Team',
+<<<<<<< HEAD
     headline: 'Creating an account is easy',
+=======
+    headline: 'Creating an account is extremely easy',
+>>>>>>> be469c96318715328a33a6e18632e35a1869ff4d
     description: 'Get access to our exculsive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel: 'Start Now',
     imgStart: true,
