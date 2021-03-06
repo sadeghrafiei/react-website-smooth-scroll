@@ -31,7 +31,18 @@ const Hero = () => {
           your next payment.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+            to="signup"
+            primary="true"
+            dark="true"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+          >
             Get started {hover ? <ArrowForward /> : <ArrowRigth />}
           </Button>
         </HeroBtnWrapper>
